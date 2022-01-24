@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
+    <!-- navigation bar -->
     <nav>
         <div class="navbar-brand">
-            <img src="images\logo 1.png" alt="EDSU_logo" width="50px"; height="50px">
-            <a href="#">Edo State University Uzuaire</a>
-        </div>
+            <div class="edsu">
+                <div>
+                    <img src="images\logo 1.png" alt="EDSU_logo" width="50px"; height="50px">
+                </div>
+                <div>
+                    <a href="#"><h4>Edo State <br> University Uzuaire</h4></a>
+                </div>
+            </div>
+        </div>    
+
         <div class="items">
             <a href="#">Home</a>
             <a href="#">About</a> 
@@ -23,35 +32,289 @@
             <a href="#">Contact Us</a>
             <a href="#">Students</a>
             
-            <button class="sign-in">Sign In</button>
-            <button class="lms">LMS</button>
+            <button class="sign-in"> <a href="#">Sign In</a></button>
+            <button class="lms"> <a href="#">LMS</a></button>
         </div>
     </nav>
     
-
+<!-- welcome address -->
     <div class="container1">
         <div class="first">
             <div class="info">
-                <h1>Welcome to World Class Education</h1>
+                <h1>Welcome to <span class="world-class">World Class </span> Education</h1>
                 <p>A place of centre of excellence in quality teaching, research, innovations and community development.</p>
             </div>
             <div class="learn">
-                <button class="learn-btn">Learn more <i class="fas fa-arrow-right"></i></button>
+                 <button class="learn-btn"> <a href="#">Learn more  <i class="fas fa-arrow-right"></i></a></button>
             </div>
         </div>
         <div class="second">
             <img src="images\Group59.png" alt="" class="image">
         </div>
     </div>
-    <div class="container2">
+    <!-- vc message -->
+    <div class="vc">
         <div class="first">
-            <img src="images\VC.png" alt="Prof. Emmanuel Aluyor">
+            <img class="profile" src="images\VC.png" alt="Prof. Emmanuel Aluyor">
         </div>
         <div class="second">
-            <h4>VICE CHANCELLOR'S DESK</h4>
-            <h1>We Are World Class. We Are EDSU.</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae unde illum ut dolorem magnam hic reprehenderit nemo delectus? Consequuntur in maxime delectus ex alias voluptatibus id ratione qui, earum incidunt neque saepe, esse dolorum error. Explicabo ab beatae ullam excepturi, accusamus quae eligendi reiciendis veniam. Nulla quisquam fugit illum omnis?</p> 
-            <p>Prof. Emmanuel Aluyor</p>
+            <div class="desk">
+                <h4>VICE CHANCELLOR'S DESK</h4>
+                <h1>We Are <span class="world-class"> World Class</span>. We Are EDSU.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae unde illum ut dolorem magnam hic reprehenderit nemo delectus? Consequuntur in maxime delectus ex alias voluptatibus id ratione qui, earum incidunt neque saepe, esse dolorum error. Explicabo ab beatae ullam excepturi, accusamus quae eligendi reiciendis veniam. Nulla quisquam fugit illum omnis?</p> 
+                <img src="images\Richard.png" alt="">
+                <p>Prof. Emmanuel Aluyor</p>
+            </div>
         </div>
+    </div>
+    <!-- tuition and fees section -->
+    <div class="tuition">
+        <h2>Tuitions & Fees</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium quis laboriosam rem quam, commodi eum? Quaerat facere incidunt sapiente</p>
+        <div class="fees">
+            <div class="fee">
+                <img src="images\icon.png" alt="">
+                <div>
+                    <h3>Undergraduated  Student Fees</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sint. </p>
+                </div>
+            </div>
+            <div class="fee">
+                <img src="images\icon (1).png" alt="">
+                <div>
+                    <h3>Post-Graduate  Student Fees</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sint. </p>
+                </div>
+            </div>
+            <div class="fee">
+                <img src="images\icon (2).png" alt="">
+                <div>
+                    <h3>LMS Fees</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sint. </p>
+                </div>
+            </div>
+            <div class="fee">
+                <img src="images\icon (3).png" alt="">
+                <div>
+                    <h3>Accommodation Fees</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sint. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="why">
+        <h2>Why Choose Edo State University?</h2>
+        <div class="features">
+            <div class="feature">
+                <span>
+                    <img src="images\icon (4).png" alt="">
+                    <h3>  E-library</h3>
+                </span>
+                <p>The library is the heart and lifeline of any citadel of learning. <br>We also have an E-library where resources are made available at the comfort of your hostels.</p>
+            </div>
+            <div class="feature">
+                <span>
+                    <img src="images\icon (4).png" alt="">
+                    <h3> Serene Environment</h3>
+                </span>
+                <p>Edo State University, Uzuaire, is located in a serene environment which fosters learning and development amongst students.</p>
+            </div>
+            <div class="feature">
+                <span>
+                    <img src="images\icon (4).png" alt="">
+                    <h3> Canvas LMS</h3>
+                </span>
+                <p>We make sure our students are always engaged in learning by providing them a Learning Management System, that way everyone can be engaged in academic studies off campus. </p>
+            </div>
+        </div>
+    </div>
+    <div class="different-paths">
+        <h2>What path will you take?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+        <div class="paths">
+            <div class="path">
+                <img src="images\Group.png" alt="">
+                <h3> Majors & Bachelors Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+            </div>
+            <div class="path">
+                <img src="images\Vector (1).png" alt="">
+                <h3>Graduated Programs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+            </div>
+            <div class="path">
+                <img src="images\Group (1).png" alt="">
+                <h3>Colleges & Schools</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+            </div>
+        </div>
+    </div>
+    <!-- alumni section -->
+    <div class="alumni">
+        <div class="header">
+            <h2>What Alumni's Said</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+        </div>
+        <div class="alumnus">
+            <div class="image">
+                <img src="images\authorProfile.png" alt="">
+            </div>
+            <div class="testimonial">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aliquid vel doloremque ex cum exercitationem ipsam eaque commodi a alias, deleniti unde iusto expedita quasi optio architecto totam aut dolorem.</p>
+                <p><b>Johnson Simanungkalit</b><br>Faculty of Economics 2020</p>
+                <img src="images\dotSlider.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Activities Section -->
+    <div class="activities">
+        <div class="intro">
+            <div>
+                <h2>Upcoming Activity</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magni.</p>
+            </div>
+            <div>
+                <button><a href="#">Load More</a></button>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="event">
+                <div class="date">
+                    <img src="images\date.png" alt="">
+                </div>
+                <div class="occasion">
+                    <h3>Opening a New academic Session</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores molestiae perspiciatis incidunt debitis suscipit recusandae. <a href="#">Continue Reading...</a> </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="date">
+                    <img src="images\date (1).png" alt="">
+                </div>
+                <div class="occasion">
+                    <h3>We invite you to the 3rd Convocation Ceremony</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores molestiae perspiciatis incidunt debitis suscipit recusandae. <a href="#">Continue Reading...</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tour">
+        <h2>Take a Tour</h2>
+        <img src="images\Group 57.png" alt="">
+    </div>
+    <div class="latest-news">
+        <div class="intro">
+            <div class="header">
+                <h2>Latest News</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet expedita reiciendis totam id modi neque accusamus similique est error</p>
+            </div>
+            <div>
+                <button> <a href="#"> Load More</a></button>
+            </div>
+        </div>
+        <div class="different-news">
+            <div class="news">
+                <img src="images\Rectangle 23.png" alt="">
+                <h5>Resumption</h5>
+                <h4>Approved 2021/2022 Academic Calender</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet expedita reiciendis totam id modi neque accusamus similique est error</p>
+            </div>
+            <div class="news">
+                <img src="images\Rectangle 24.png" alt="">
+                <h5>Student Week</h5>
+                <h4>Edo State University, Uzairue 2021 Cultural Week Activities</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet expedita reiciendis totam id modi neque accusamus similique est error</p>
+            </div>
+            <div class="news">
+                <img src="images\Rectangle 22.png" alt="">
+                <h5>Medical</h5>
+                <h4>Edo State University Medical Outreach</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet expedita reiciendis totam id modi neque accusamus similique est error</p>
+            </div>
+        </div>
+    </div>
+    <div class="subscription">
+        <h2>Don't miss our weekly updates about academics information</h2>
+        <form action="#">
+            <!-- <label for="email"></label> -->
+            <input type="text" placeholder="Enter your email address...">
+            <input type="submit" value="SUBSCRIBE">
+        </form>
+    </div>
+    <div class="summary">
+        <div class="summaries">
+            <div class="edsu-summary">
+                <div class="edsu">
+                    <div>
+                        <img src="images\logo 1.png" alt="EDSU_logo" width="50px"; height="50px">
+                    </div>
+                    <div>
+                        <h4>Edo State <br> University Uzuaire</h4>
+                    </div>
+                </div>
+                <p>Edo State University, Uzuaire, lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, labore sequi sit fugiat soluta aut praesentium aliquid beatae optio tempore!</p>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <h4>EDSU</h4>
+                    <ul>
+                        <li> <a href="#">Why EDSU</a></li>
+                        <li> <a href="#">Programs</a></li>
+                        <li> <a href="#">Scholarship</a></li>
+                        <li> <a href="#">Security</a></li>
+                        <li> <a href="#">Tuition & Fees</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li> <a href="#">Download</a></li>
+                        <li> <a href="#">Help Center</a></li>
+                        <li> <a href="#">Events</a></li>
+                        <li> <a href="#">Guides</a></li>
+                        <li> <a href="#">Partner</a></li>
+                        <li> <a href="#">Directories</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h4>Community</h4>
+                    <ul>
+                        <li> <a href="#">About us</a></li>
+                        <li> <a href="#">Contact us</a></li>
+                        <li> <a href="#">Academics</a></li>
+                        <li> <a href="#">Register</a></li>
+                        <li> <a href="#">LMS</a></li>
+                        <li> <a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h4>Get in Touch with Us</h4>
+                    <ul>
+                        <li> <a href="#">
+                            <i class="fal fa-map-marker-alt"></i> Km7, Auchi-Abuja Road, Iyamho- <br> Uzairue Edo State, Nigeria
+                        </a></li>
+                        <li> <a href="#">
+                            <i class="far fa-phone-alt"></i>  08064888518, 08065528915, <br> 09025412171, 07012641913
+                        </a></li>
+                        <li> <a href="#">
+                            <i class="fal fa-envelope"></i>  registrar@edouniversity.edu.ng
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="footer">Edo State University Uzuaire  -   © 2021 All Rights <br> Reserved</p>
 </body>
 </html>
